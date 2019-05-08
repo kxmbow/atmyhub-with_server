@@ -142,10 +142,10 @@ $(document).ready(function(){
     function newsDisplay(q){
       $.ajax({
         type: "GET",
-        url: "https://api.cognitive.microsoft.com/bing/v7.0/news/search?q="+q+"&Subscription-Key=9b89b39fa70f44c68b05e1bc2954fe51",
-        // beforeSend: function(req) {
-        //   req.setRequestHeader("Ocp-Apim-Subscription-Key", "9b89b39fa70f44c68b05e1bc2954fe51");
-        // },
+        url: "https://api.cognitive.microsoft.com/bing/v7.0/news/search?q="+q,
+        beforeSend: function(req) {
+          req.setRequestHeader("Ocp-Apim-Subscription-Key", "9b89b39fa70f44c68b05e1bc2954fe51");
+        },
         data: "{body}"
       }).done(function(res){
         console.log(res);
