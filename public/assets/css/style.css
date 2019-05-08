@@ -1,0 +1,364 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-image: url("img/3.gif"); */
+    background-color: whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navtab{
+    background-color: transparent !important
+}
+#nav_btn{
+    width: 1.5em;
+    height: 1.5em;
+}
+.newnav{
+    background-color: rgba(255, 255, 255,0.7);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px
+}
+#buttonRow {
+    position: fixed;
+    bottom: 95px;
+    right: 35px;
+}
+#addButton {
+    font-size: 72px;
+    color: black
+}
+#weatherImg{
+    width: 90px;
+    height: 90px;
+}
+#weatherForecast{
+    padding-top: 15px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+#todoInput{
+    background-color:  rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+}
+
+/* #bg {
+    background-image: url("img/3.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+  
+.greetText{
+    font-family: 'Bree Serif', serif;
+}
+
+.events{
+    text-align: left;
+}
+
+/* .modal-content{
+    background-color: rgba(255, 255, 255, 0.4);
+    font-style: bold;
+} */
+
+
+
+.social-feed-icon{
+    width: 150px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px; 
+}  
+
+.social-feed-icon:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.btn-myhub{
+    
+    background-color: rgba(0,0,0,0.6);
+    border-color: white;
+    
+}
+.btn-myhub:hover{
+    
+    background-color: rgba(255, 255, 255,0.6);
+    border-color: white;
+    transform: scale(1.5);
+    cursor: pointer;
+    color: black;
+}
+
+.card-custom{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.7);
+    border: 0.5px solid white;
+    color: black;
+ }
+ 
+
+ .card-title{
+    text-align: center;
+}
+.card-subtitle{
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 450px;
+    
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.card-social{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+
+.social-feed-title{
+    text-align: left;
+}
+
+
+.icons{
+    width: 100px;
+    
+}
+
+#test{
+    text-align: center
+}
+
+.icons-ev:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.icons:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+#todoIcons{
+    background-color: blue;
+    text-align: center;
+}
+#todoIcons:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+    
+        
+@media screen and (max-width: 768px) {
+    .card-img-top{
+            width: 100%;
+            height: 350px;
+            
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+    }
+
+   
+    .social-feed-icon{
+        width: 150px;
+        height: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px; 
+    }  
+}
+     
+@media screen and (max-width: 640px) {
+    .card-img-top{
+        width: 100%;
+        height: 170px;
+        
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+   
+    
+
+    .card-subtitle{
+        font-size: 17px;
+    }
+    .social-feed-icon{
+        width: 85px;
+        height: 80px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px; 
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+    .card-img-top{
+        width: 100%;
+        height: 220px;
+        
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    
+     
+     .card-subtitle{
+         font-size: 13px;
+    }
+    .social-feed-icon{
+        width: 75px;
+        height: 70px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px; 
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 414px) {
+    .card-img-top{
+        width: 100%;
+        height: 220px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    
+    
+     .card-subtitle{
+         font-size: 13px;
+    }
+    .social-feed-icon{
+        width: 65px;
+        height: 70px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px; 
+    }
+    
+    #test{
+        text-align: center;
+        font-size: 15px;
+    }
+    .greetText{
+        font-size: 25px;
+    }
+    .icons{
+        width: 70px;
+    }
+    
+    .sometext{
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+    
+}
+
