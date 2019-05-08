@@ -91,8 +91,8 @@ $(document).ready(function(){
       method: "get",
       url: "/api/feed"
     }).done(function(data){
-      console.log(data)
-      data[0].interests.forEach(newsDisplay);
+      // console.log(data)
+      // data[0].interests.forEach(newsDisplay);
       $("#username").text(data[0].email)
       var user = data[0].firstname;
       var humanizedGreeting = "Good " + getGreetingTime(moment()) + ", " + user + ".";
