@@ -1,5 +1,8 @@
-{
-  "name": "myhub",
+{ 
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "atmyhub",
   "version": "0.0.8",
   "author": "Khadim Mbow",
   "license": "none",
