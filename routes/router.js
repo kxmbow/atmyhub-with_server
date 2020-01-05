@@ -3,18 +3,7 @@ var router = express.Router();
 var User = require('../models/user');
 var path = require("path");
 const https = require('https')
-// let subscriptionKey = '9b89b39fa70f44c68b05e1bc2954fe51';
-// const NewsSearchAPIClient = require('azure-cognitiveservices-newssearch');
- 
-// const CognitiveServicesCredentials = require('ms-rest-azure').CognitiveServicesCredentials;
-// let credentials = new CognitiveServicesCredentials(subscriptionKey);
-// let client = new NewsSearchAPIClient(credentials);
 
-// client.newsOperations.search('Obama').then((result) => {
-//  console.log(result.value);
-// }).catch((err) => {
-//  throw err;
-// });
 
 //POST route for updating data
 router.post('/', function (req, res, next) {
