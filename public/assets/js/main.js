@@ -144,7 +144,7 @@ $(document).ready(function(){
         type: "GET",
         url: "https://api.cognitive.microsoft.com/bing/v7.0/news/search?q="+q,
         beforeSend: function(req) {
-          req.setRequestHeader("Ocp-Apim-Subscription-Key", "9b89b39fa70f44c68b05e1bc2954fe51");
+          req.setRequestHeader("Ocp-Apim-Subscription-Key", "xxxxx");
         },
         data: "{body}"
       }).done(function(res){
