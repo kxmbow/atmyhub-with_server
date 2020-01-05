@@ -10,7 +10,7 @@ const MongoClient = require('mongodb').MongoClient;
 var PORT = process.env.PORT || 3000;
 
 //connect to MongoDB
-mongoose.connect('mongodb://admin:Salamatane_009@ds229295.mlab.com:29295/heroku_b3z28c88');
+mongoose.connect('mongodb://xxxxx');
 var db = mongoose.connection;
 
 //handle mongo error
