@@ -7,8 +7,8 @@ $(document).ready(function(){
         twitter:{
           accounts: param,                      //Array: Specify a list of accounts from which to pull tweets
           limit: 2,                                   //Integer: max number of tweets to load
-          consumer_key: 'CxwYskHCu4QC3VPTSp6O8FXWu',          //String: consumer key. make sure to have your app read-only
-          consumer_secret: '4XY357eY2uej7RYTrASAH9LWqKuqdQwFkjtk1rcCll9vsLns3L' //String: consumer secret key. make sure to have your app read-only
+          consumer_key: 'xxxxxx',          //String: consumer key. make sure to have your app read-only
+          consumer_secret: 'xxxxxxx' //String: consumer secret key. make sure to have your app read-only
         },
 
         // GENERAL SETTINGS
@@ -23,7 +23,7 @@ $(document).ready(function(){
       facebook:{
       accounts: param,  //Array: Specify a list of accounts from which to pull wall posts
       limit: 2,                                   //Integer: max number of posts to load
-      access_token: '1499245463488595|ef6e82bb6d0d31f7e2137ec57effb353'  //String: "APP_ID|APP_SECRET"
+      access_token: 'xxxxxx|xxxxx'  //String: "APP_ID|APP_SECRET"
     },
     // GENERAL SETTINGS
       length:400,
@@ -36,8 +36,8 @@ $(document).ready(function(){
       instagram:{
         accounts: ["@tester9362"],  //Array: Specify a list of accounts from which to pull posts
         limit: 10,                                   //Integer: max number of posts to load
-        client_id: '0490bdeb6f90478c8c9d86f55313e0a1',       //String: Instagram client id (option if using access token)
-        access_token: '6244861332.1677ed0.d971f4e355864dbe8734e1e2f7db6a49' //String: Instagram access token
+        client_id: 'xxxxx',       //String: Instagram client id (option if using access token)
+        access_token: 'xxxxxx' //String: Instagram access token
     },
     // GENERAL SETTINGS
       length:400,
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '1499245463488595',
+    appId      : 'xxxxxx',
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
